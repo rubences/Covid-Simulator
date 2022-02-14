@@ -56,7 +56,7 @@ class Characters {
     else{
       System.out.println("Not Sick");
     }
-    System.out.println("Age: " + String.valueOf(age));
+    System.out.println("Ages: " + String.valueOf(age));
     if(money<50){
       System.out.println(Colors.ANSI_GREEN + "Money: $" + String.valueOf(money) + Colors.ANSI_RESET);
     }
